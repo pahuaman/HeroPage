@@ -1,0 +1,95 @@
+﻿html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/*Fin del reset*/
+body
+{
+    /*background-image: url(image/Back.jpg);
+    background-image: url(image/Back2.jpg);*/
+    background-image: url(image/Jaden.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+
+    
+}
+
+#Datafooter{
+    font-size:20px;
+    height:50px;
+    background-color:black;
+    width:100%;
+    clear:both;
+    margin-top:60px;
+    /*position:absolute;*/
+    padding-top:initial;
+}
+
+/*#Hero_Title{
+    font: normal 2.4em Verdana, Geneva, sans-serif;
+	background:-webkit-linear-gradient(top, pink, white);
+	width:35%;
+	border-radius:10px;
+	margin: 15px auto;
+	text-align:center;
+	padding:15px;
+	color:silver;
+	box-shadow:gray 5px 5px 10px;
+	text-shadow:gray 2px 2px 3px;
+}*/
+
+#Hero_Title{
+    text-align:center;
+    font-size:90px;
+    text-shadow:silver 2px 2px 3px;
+}
+
+section{
+	
+	width:91%;
+	/*border-top:1px dashed gray;*/
+	margin:15px auto;
+}
+
+figure{
+	
+	float:left;
+	
+}
+
+figure img{
+	
+	padding:4px;
+	background:gray;
+	border-radius:20px;
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	box-shadow:black 10px 10px 10px;
+	
+}
+
+figure img:hover{
+	
+	-webkit-transform:scale(1.2);
+    background:green;
+}
+
+figcaption{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.3em;
+	text-align:center; 
+	margin-top:5px;
+	
+}
